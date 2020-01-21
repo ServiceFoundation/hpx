@@ -93,7 +93,7 @@ namespace hpx { namespace lcos { namespace detail {
     struct dataflow_finalization
     {
         //
-        dataflow_finalization(Frame* df)
+        explicit dataflow_finalization(Frame* df)
           : this_(df)
         {
         }

@@ -66,7 +66,7 @@ namespace hpx { namespace lcos { namespace detail {
     struct continuation_finalization
     {
         //
-        continuation_finalization(Continuation* c)
+        explicit continuation_finalization(Continuation* c)
           : this_(c)
         {
         }
